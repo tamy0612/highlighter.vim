@@ -1,4 +1,10 @@
 highlighter.vim
----
+===
 
-[Vaporware]
+[![Build Status](https://travis-ci.org/tamy0612/highlighter.vim.svg?branch=master)](https://travis-ci.org/tamy0612/highlighter)
+
+## About
+
+Helper tool to generate Vim colorcheme.
+
+**This is still a vaporware.**
