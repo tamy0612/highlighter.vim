@@ -12,8 +12,8 @@ env:
     - THEMIS_VIM=nvim
 
 before_script:
-    - if [[ "$THEMIS_VIM" == "vim" && "$TRAVIS_OS_NAME" == "osx" ]]; then brew install vim --HEAD fi
-    - if [[ "$THEMIS_VIM" == "nvim" ]]; then curl -sL https://gist.githubusercontent.com/lambdalisue/0f461f6a91743895394e63a9a1c65232/raw/install_nvim_for_ci.sh | bash fi
+    - if [[ "$THEMIS_VIM" == "vim" && "$TRAVIS_OS_NAME" == "osx" ]]; then brew install vim --HEAD; fi
+    - if [[ "$THEMIS_VIM" == "nvim" ]]; then curl -sL https://gist.githubusercontent.com/lambdalisue/0f461f6a91743895394e63a9a1c65232/raw/install_nvim_for_ci.sh | bash; fi
     - git clone https://github.com/thinca/vim-themis
 
 script:
